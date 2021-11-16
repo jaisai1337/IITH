@@ -21,9 +21,7 @@ D =np.array([1,2])
 
 
 
-# method 1
-#D=np.linalg.norm(A-B)
-#print("The distance between ",A," and ",B," is: ",D)
+
 x_AB = line_gen(A,B)
 x_BC = line_gen(B,C)
 x_CD = line_gen(C,D)
@@ -31,10 +29,13 @@ x_DA = line_gen(D,A)
 
 
 
+
 plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$')
 plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$')
 plt.plot(x_CD[0,:],x_CD[1,:],label='$CD$')
 plt.plot(x_DA[0,:],x_DA[1,:],label='$DA$')
+
+
 
 plt.plot(A[0], A[1], 'o')
 plt.text(A[0] * (1 + 0.1), A[1] * (1 - 0.1) , 'A')
