@@ -16,11 +16,8 @@ def line_gen(A,B):
 A =np.array([1,-3])
 B =np.array([-2,1])
 
-# method 1
 D=np.linalg.norm(A-B)
 
-# method 2
-D=np.sqrt((A-B).dot((A-B)))
 
 print("The distance between ",A," and ",B," is: ",D)
 
