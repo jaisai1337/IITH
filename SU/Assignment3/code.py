@@ -19,21 +19,10 @@ A =np.array([1,3])
 B =np.array([2,7])
 
 P=((m*B)+(n*A))/(m+n)
-# print((m*B)/7+(n*A)/7)
-#print(m*B)
-#print(n*A)
-# print((m*B)/7+(n*A)/7)
-print(P)
-#P = [10/7,33/7]
+#print(P)
 
 
-# method 1
-#D=np.linalg.norm(A-B)
-#print("The distance between ",A," and ",B," is: ",D)
 x_AB = line_gen(A,B)
-#x_BC = line_gen(B,C)
-#x_CD = line_gen(C,D)
-#x_DA = line_gen(D,A)
 
 
 
