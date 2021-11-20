@@ -162,8 +162,6 @@ https://raw.githubusercontent.com/jaisai1337/IITH/main/SU/Assignment4/main.tex
 \subsection{Question 1}
 
 Find the area of the triangle of coordinates whose angular points are (1,3), (-7,6), (5,-1).
-\begin{align}
-\end{align}
 \end{enumerate}
 \subsection{Solution}
 \item Area of the triangle
@@ -181,11 +179,8 @@ Let $\vec{A}=\myvec{1\\3}, \vec{B}=\myvec{-7\\6}, \vec{C}=\myvec{5\\-1}\\
 \end{align}
 From \eqref{eq5}
 \begin{align}
-&=\frac{1}{2}\begin{vmatrix}
-8 & -4\\
--3 & 4\\
-\end{vmatrix}\\
-&=\frac{1}{2}\left[\myvec{8\times4}-\myvec{-3\times-4}\right]\\
+&=\frac{1}{2}\mydet{8&-4\\-3&4}\\
+&=\frac{1}{2}\myvec{8\times4}-\myvec{-3\times-4}\\
 &=\frac{1}{2}\myvec{32-12}\\
 &=\frac{1}{2}\myvec{20}\\
 &=10\nonumber
@@ -197,7 +192,7 @@ From \eqref{eq5}
 \begin{figure}[!ht]
 \includegraphics[width=\columnwidth]{assignment4.png}
 \caption{}
-\label{fig:Dividing Line}
+\label{fig:Triangle}
 \end{figure}
 \end{enumerate}
 \end{document}
