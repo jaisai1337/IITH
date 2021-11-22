@@ -35,7 +35,7 @@ B = np.array([3,-2])
 C = np.array([-3,16]) 
 
 Ar = np.linalg.det([A-B,A-C])
-print("Matrix Method")
+print("Matrices Method")
 print("Area of the triangle is :",round(Ar/2))
 if(Ar == 0):
   print("Since the area is ", Ar, "the given points form a straight line.")
