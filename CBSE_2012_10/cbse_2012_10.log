@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2022.1.3)  7 JAN 2022 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2022.1.3)  7 JAN 2022 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -559,8 +559,11 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \mult@nat@firstbox=\box66
 \colbreak@box=\box67
 \mc@col@check@num=\count148
+) (./cbse_2012_10.aux
+
+LaTeX Warning: Label `fig5' multiply defined.
+
 )
-No file cbse_2012_10.aux.
 \openout1 = `cbse_2012_10.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -577,6 +580,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
+
 -- Lines per column: 50 (exact).
 LaTeX Info: Redefining \celsius on input line 40.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 40.
@@ -633,6 +637,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
+
+(./cbse_2012_10.out) (./cbse_2012_10.out)
 \@outlinefile=\write3
 \openout3 = `cbse_2012_10.out'.
 
@@ -717,10 +723,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-
-LaTeX Warning: Reference `fig1' on page 1 undefined on input line 133.
-
-<./fig/1.png, id=4, 383.4325pt x 268.00125pt>
+<./fig/1.png, id=17, 383.4325pt x 268.00125pt>
 File: ./fig/1.png Graphic file (type png)
 <use ./fig/1.png>
 Package pdftex.def Info: ./fig/1.png  used on input line 136.
@@ -834,10 +837,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
-
-LaTeX Warning: Reference `fig2' on page 2 undefined on input line 174.
-
-<./fig/2.png, id=49, 383.4325pt x 48.18pt>
+<./fig/2.png, id=61, 383.4325pt x 48.18pt>
 File: ./fig/2.png Graphic file (type png)
 <use ./fig/2.png>
 Package pdftex.def Info: ./fig/2.png  used on input line 177.
@@ -900,10 +900,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
-
-LaTeX Warning: Reference `fig3' on page 2 undefined on input line 201.
-
-<./fig/3.png, id=50, 241.90375pt x 276.03125pt>
+<./fig/3.png, id=63, 241.90375pt x 276.03125pt>
 File: ./fig/3.png Graphic file (type png)
 <use ./fig/3.png>
 Package pdftex.def Info: ./fig/3.png  used on input line 204.
@@ -913,10 +910,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
-
-LaTeX Warning: Reference `fig4' on page 2 undefined on input line 209.
-
-<./fig/4.png, id=51, 274.02374pt x 233.87375pt>
+<./fig/4.png, id=65, 274.02374pt x 233.87375pt>
 File: ./fig/4.png Graphic file (type png)
 <use ./fig/4.png>
 Package pdftex.def Info: ./fig/4.png  used on input line 212.
@@ -951,26 +945,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
-
-LaTeX Warning: Reference `fig5' on page 3 undefined on input line 237.
-
-<./fig/5.png, id=86, 237.88875pt x 242.9075pt>
+<./fig/5.png, id=100, 237.88875pt x 242.9075pt>
 File: ./fig/5.png Graphic file (type png)
 <use ./fig/5.png>
 Package pdftex.def Info: ./fig/5.png  used on input line 240.
 (pdftex.def)             Requested size: 126.0pt x 128.6588pt.
-
-LaTeX Warning: Reference `fig6' on page 3 undefined on input line 245.
-
-<./fig/6.png, id=87, 339.2675pt x 289.08pt>
+<./fig/6.png, id=102, 339.2675pt x 289.08pt>
 File: ./fig/6.png Graphic file (type png)
 <use ./fig/6.png>
 Package pdftex.def Info: ./fig/6.png  used on input line 248.
 (pdftex.def)             Requested size: 126.0pt x 107.35931pt.
-
-LaTeX Warning: Reference `fig7' on page 3 undefined on input line 255.
-
-<./fig/7.png, id=88, 256.96pt x 242.9075pt>
+<./fig/7.png, id=104, 256.96pt x 242.9075pt>
 File: ./fig/7.png Graphic file (type png)
 <use ./fig/7.png>
 Package pdftex.def Info: ./fig/7.png  used on input line 258.
@@ -1036,31 +1021,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
  (./cbse_2012_10.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
+Package rerunfilecheck Info: File `cbse_2012_10.out' has not changed.
+(rerunfilecheck)             Checksum: 4FCF078E07C8DB6735023FA3BD3543EB;132.
 
 
-Package rerunfilecheck Warning: File `cbse_2012_10.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cbse_2012_10.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4FCF078E07C8DB6735023FA3BD3543EB;132.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 10666 strings out of 492615
- 160463 string characters out of 6131391
- 270201 words of memory out of 5000000
- 14320 multiletter control sequences out of 15000+600000
- 38238 words of font info for 85 fonts, out of 8000000 for 9000
+ 10675 strings out of 492615
+ 160594 string characters out of 6131391
+ 270526 words of memory out of 5000000
+ 14324 multiletter control sequences out of 15000+600000
+ 37131 words of font info for 84 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 38i,9n,39p,314b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,39p,314b,556s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1068,12 +1044,12 @@ f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on cbse_2012_10.pdf (4 pages, 347931 bytes).
+/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
+.pfb>
+Output written on cbse_2012_10.pdf (4 pages, 341426 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 191 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  94 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 60 words of extra memory for PDF output out of 10000 (max. 10000000)
 
