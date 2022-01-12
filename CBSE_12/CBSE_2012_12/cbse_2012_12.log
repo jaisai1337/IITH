@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2022.1.3)  12 JAN 2022 10:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2022.1.3)  12 JAN 2022 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -559,12 +559,11 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \mult@nat@firstbox=\box66
 \colbreak@box=\box67
 \mc@col@check@num=\count148
-) (/usr/share/texlive/texmf-dist/tex/latex/tfrupee/tfrupee.sty
+) (./tfrupee.sty
 Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
 Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
 . Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
-)
-(./cbse_2012_12.aux)
+) (./cbse_2012_12.aux)
 \openout1 = `cbse_2012_12.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -842,8 +841,8 @@ Package rerunfilecheck Info: File `cbse_2012_12.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  ) 
 Here is how much of TeX's memory you used:
- 10597 strings out of 492615
- 159992 string characters out of 6131391
+ 10596 strings out of 492615
+ 159850 string characters out of 6131391
  280578 words of memory out of 5000000
  14298 multiletter control sequences out of 15000+600000
  36481 words of font info for 84 fonts, out of 8000000 for 9000
