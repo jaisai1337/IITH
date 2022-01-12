@@ -14,8 +14,8 @@
 \usepackage{listings}
 \usepackage{color}                                            %%
 \usepackage{array}                                            %%
-\usepackage{longtable}                                        %%
-\usepackage{calc}                                             %%
+\usepackage{longtable}  %%
+\usepackage{calc}       %%
 \usepackage{multirow}                                         %%
 \usepackage{hhline}                                           %%
 \usepackage{ifthen}                                           %%
@@ -113,7 +113,10 @@ columns=fullflexible
 \item If the binary operation $*$ on the set $Z$ of integers is defined by $a*b=a+b-5$, then write the identity element for the operation $*$ in $Z$.\\
 \item Write the values of $\cot(\tan^{-1}a+\cos^{-1}a)$ \\
 \item If $\vec{A}$ is a square matrix such that $\vec{A}^2 = \vec{A}$, then write the value of $(\vec{I}+\vec{A})^2-3\vec{A}$\\
-\item If $x \myvec{2\\3} +y\myvec{-1 \\ 1 } = \myvec{ 10 \\ 5}$, write the value of $x$.\\	
+\item If 
+\begin{align}
+    x \myvec{2\\3} +y\myvec{-1 \\ 1 } = \myvec{ 10 \\ 5}
+\end{align} write the value of $x$.\\
 \item Write the following determinant : 
 \begin{align}
 \mydet{ 102 & 18 & 36 \\ 1 & 3 & 4\\ 17 & 3 & 6} \nonumber
@@ -123,7 +126,11 @@ columns=fullflexible
     \int\brak{\frac{x-1}{x^2}}e^{x}dx= f(x)e^{x}+c \nonumber
 \end{align}
 then write the value of $f(x)$\\
-\item If $\int_{a}^{0}3x^{2}dx=8$, write the value of $'a'$.\\
+\item If 
+\begin{align}
+\int_{a}^{0}3x^{2}dx=8
+\end{align}
+write the value of $'a'$.\\
 \item Write the value of 
 \begin{align}
 (\hat{i} \ \times \ \hat{j})\cdot\hat{k}+(\hat{j} \ \times \ \hat{k})\cdot\hat{i} \nonumber
@@ -169,7 +176,7 @@ f(x) = \frac{4x+3}{6x-4} \nonumber
 \end{align}
 \item If 
 \begin{align}
-x\sqrt{1+y}+y\sqrt{1+x}=0\ , \-1<x<1\ , \ x\neq y \nonumber
+x\sqrt{1+y}+y\sqrt{1+x}=0\ , \nonumber\\ -1<x<1 \ , \ x\neq y \nonumber 
 \end{align}
 then prove that 
 \begin{align}
@@ -216,7 +223,15 @@ given that when $x=0$, $y=\frac{\pi}{4}$\\
 \begin{align}
 x-y+z=4\nonumber \\ 2x+y-3z=0\nonumber\\ x+y+z=2 \nonumber
 \end{align}
-\item If $\vec{A}^{-1}=\myvec{3&-1&1\\-15&-6&-5\\5&-2&2}$ and $\vec{B}=\myvec{1&2&-1\\-1&3&0\\0&-2&1}$, find $\vec{\brak{AB}}^{-1}$.\\
+\item If 
+\begin{align}
+\vec{A}^{-1}&=\myvec{3&-1&1\\-15&-6&-5\\5&-2&2} \nonumber
+\end{align}
+and 
+\begin{align}
+\vec{B}&=\myvec{1&2&-1\\-1&3&0\\0&-2&1} \nonumber
+\end{align}
+find $\vec{\brak{AB}}^{-1}$.\\
 \end{enumerate}
 \item Show that the altitude of the right circular cone of maximum volume that can be inscribed in a sphere of radius is $\frac{4R}{3}$.\\
 \item Find the area of the region in the first quadrant enclosed by x-axis, the line $x = \sqrt{3}\ y$ and the circle $x^{2}+y^{2}=4$. \\
@@ -232,8 +247,8 @@ x-y+z=4\nonumber \\ 2x+y-3z=0\nonumber\\ x+y+z=2 \nonumber
     \int_{0}^{\pi/4}\frac{\cos^{2}}{\cos^{2}x+4\sin^{2}x}dx \nonumber
 \end{align}
 \end{enumerate}
-\item Find the vector equation of the plane passing through the points (2, 1, -1) and (-1, 3, 4) and perpendicular to the plane $x-2y+4z=10$. Also show that the plane thus obtained contains the lines $\overrightarrow{r}=\hat{i}+3\hat{j}+4\hat{k}+\lambda(3\hat{i}-2\hat{j}-5\hat{k}).$\\
-\item A company produces soft drinks that has a contract which requires that a minimum of 80 units of the chemical A and 60 units of the chemical B go into each bottle of the drink. The chemicals are available in prepared mix packets from two different suppliers. Supplier S had a packet of mix of 4 units of A and 2 units of B that costs $\rupee 10$. The supplier T has a packet of mix of 1 unit of A and 1 unit of B that costs $\rupee 4$. How many packets of mixes from S and T should the company purchase to honour the contract requirement and yet minimize cost ? Make a LPP and solve graphically.\\
+\item Find the vector equation of the plane passing through the points $\myvec{2, 1, -1}$ and $\myvec{-1, 3, 4}$ and perpendicular to the plane $x-2y+4z=10$. Also show that the plane thus obtained contains the lines $\overrightarrow{r}=\hat{i}+3\hat{j}+4\hat{k}+\lambda(3\hat{i}-2\hat{j}-5\hat{k}).$\\
+\item A company produces soft drinks that has a contract which requires that a minimum of 80 units of the chemical A and 60 units of the chemical B go into each bottle of the drink. The chemicals are available in prepared mix packets from two different suppliers. Supplier S had a packet of mix of 4 units of A and 2 units of B that costs $\rupee~10$. The supplier T has a packet of mix of 1 unit of A and 1 unit of B that costs $\rupee~4$. How many packets of mixes from S and T should the company purchase to honour the contract requirement and yet minimize cost ? Make a LPP and solve graphically.\\
 \item In a certain college, $4\%$ of boys and $1\%$ of girls are taller than 1.75 metres. Furthermore, $60\%$ of the students in the college are girls. A student is selected at random from the college and is found to be taller than 1.75 metres. Find the probability that the selected student is a girl.
  \end{enumerate}
 \end{document}
